@@ -1,0 +1,98 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Michael Angelo U. Encarnado</title>
+    <link rel="stylesheet" href="Style.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin> 
+    <link href="https://fonts.googleapis.com/css2?family=Oswald:wght@200;300;400;600;700&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.css" integrity="sha512-5A8nwdMOWrSz20fDsjczgUidUBR8liPYU+WymTZP1lmY9G6Oc7HlZv156XqnsgNUzTyMefFTcsFH/tnJE/+xBg==" crossorigin="anonymous" referrerpolicy="no-referrer" />
+
+    <!-- Added style block for centering contact-us section -->
+    <style>
+        .contact-us {
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            text-align: center;
+        }
+
+        .contact-col {
+            max-width: 400px; /* You can adjust the max-width based on your design */
+        }
+    </style>
+</head>
+<body>
+    <section class="sub-header">
+        <nav>
+            <a href="index.html"></a>
+            <div class="nav-links" id="navLinks">
+                <i class="fa fa-times" onclick="hideMenu()"></i>
+                <ul>
+                    <li><a href="index.html">HOME</a></li>
+                    <li><a href="About.html">ABOUT ME</a></li>
+                    <li><a href="Contact.html">CONTACT</a></li>
+                </ul>
+            </div>
+            <i class="fa fa-bars" onclick="showMenu()"></i>
+        </nav>
+        <h1>Contact Me</h1>
+    </section>
+
+    <!-- Contact Us -->
+    <section class="contact-us">
+        <div class="row">
+            <div class="contact-col">
+                <div>
+                    <i class="fa fa-home"></i>
+                    <span>
+                        <h8>Prk 10 Zone 4 Napocor, Maria Cristina  </h8>
+                        <br>
+                        <p1>Iligan City, LDN. PHILIPPINES</p1> 
+                    </span>
+                </div>
+                <div>
+                    <i class="fa fa-phone"></i>
+                    <span>
+                        <h8>+63 9559770201/ +63 302-2256 </h8>
+                        <br>
+                    </span>
+                </div>
+                <div>
+                    <i class="fa fa-facebook"></i>
+                    <span>
+                        <h8>Migs Daily </h8>
+                        <br>
+                        <p1>https://www.facebook.com/migs.daily.3</p1> 
+                    </span>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Footer -->
+    <section class="footer">
+        <h7>About Me</h7>
+        <br>
+        <p1>A Father A Worker A Student</p1>
+        <div class="icons">
+            <i class="fa fa-facebook"></i>
+        </div>
+        <p1>Made by: Encarnado <i class="fa fa-heart-o"></i></p1>
+    </section>
+
+    <!-- JavaScript for Toggle Menu -->
+    <script>
+        var navLinks = document.getElementById("navLinks");
+
+        function showMenu() {
+            navLinks.style.right = "0";
+        }
+
+        function hideMenu() {
+            navLinks.style.right = "-200px";
+        }
+    </script>
+</body>
+</html>
